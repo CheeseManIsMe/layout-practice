@@ -58,3 +58,32 @@ body {
     background-size: cover;
     height: 300px;
 }
+
+.contact-banner {
+    background-image: url(/images/contact.jpg);
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:700px
+}
+
+footer {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+    height:500px;
+}
+
+hr {
+    display:flex;
+    width: 100%;
+    border: black solid 2px;
+}
+
+.headlines {
+    display:flex;
+    margin-left:33%;
+    margin-right: 33%;
+}
